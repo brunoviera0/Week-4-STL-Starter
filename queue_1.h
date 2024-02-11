@@ -2,6 +2,7 @@
 #define QUEUE_1_H
 
 #include <queue>
+#include <vector>
 #include "item.h"
 
 void pushItemsOntoQueue(std::queue<Item>& queue, const std::vector<Item>& items);
